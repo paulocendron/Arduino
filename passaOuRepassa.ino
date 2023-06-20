@@ -1,4 +1,3 @@
-
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>
 #define LedAmarelo 2
@@ -75,7 +74,7 @@ void loop()
     ledAmareloAceso = false;
     lcd.clear();
     lcd.setCursor(0, 0);
-    lcd.print("Azul responde");
+    lcd.print("Azul");
     lcd.setCursor(0, 1);
     lcd.print("Respondendo");
     if (digitalRead(Ponto) == HIGH){
